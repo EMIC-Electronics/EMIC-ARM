@@ -29,9 +29,46 @@ Utilizando EMIC Codify se establece la relación entre la definición de los mó
 
 #### Comados EMIC Codify:
 
+##### #setFile(dir/file)
+##### #setOutput(dir/file)
+
+Setea un nuevo destino para el texto generado como resultado del prosesamiento, guarda el destino anterior en una pila para ser utilizado nuevamente. 
+.
+
+##### #reSetOutput(dir/file)
+##### #reSetFile(dir/file)
+
+Cambia el destino para el texto generado como resultado del prosesamiento, no guarda el destino anterior en una pila.
+
+##### #unSetOutput
+##### #unSetFile
+
+Recupera el destino para 
+
+##### #copy(dir1[/file],dir2)
+
+
+
+
 ##### #insertFile(dir/file[,paramn=valuen][, ......])
+##### #newRFIcode 
+
+##### #addToMacro
+##### #doCMDejec
+##### #doCMDf
+##### #doCMD
 
 
+##### ##include
+
+
+##### ("/**<")
+
+##### #define
+##### #undef
+##### #using
+##### #addToList
+##### #useDriver
 
 
 
